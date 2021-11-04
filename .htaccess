@@ -1,0 +1,17 @@
+RewriteEngine On
+
+RewriteRule ^anasayfa$ index.php?url=anasayfa
+RewriteRule ^giris$ index.php?url=giris
+RewriteRule ^cinmusallati$ index.php?url=cinmusallati
+RewriteRule ^buyumusallati$ index.php?url=buyumusallati
+RewriteRule ^ruhsal$ index.php?url=ruhsal
+RewriteRule ^tedavi$ index.php?url=tedavi
+RewriteRule ^ayetler$ index.php?url=ayetler
+RewriteRule ^dua$ index.php?url=dua
+RewriteRule ^ruya$ index.php?url=ruya
+RewriteRule ^ruhtani$ index.php?url=ruhtani
+RewriteRule ^korunma$ index.php?url=korunma
+RewriteRule ^video$ index.php?url=video
+RewriteRule ^panel$ index.php?url=panel
+
+ErrorDocument	404	http://localhost/buyuvecin/views/pages/hata.php

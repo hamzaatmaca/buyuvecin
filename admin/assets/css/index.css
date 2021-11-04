@@ -1,0 +1,96 @@
+@import 'media.css'; 
+
+@charset "utf-8";
+
+*{
+	/*outline: 1px solid black;*/
+	
+}
+.goldColor{
+	color:gold;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-weight: bold
+}
+.slideTwo{
+	margin-top: 100px;
+	color:gold/*#13b1cd */;
+	font-weight: 900;
+	letter-spacing: 4px;
+	line-height: 1.5;
+	-webkit-text-stroke-width: 1.4px;
+	-webkit-text-stroke-color: black;
+
+}
+
+.siteLogo{
+	letter-spacing: 2px;
+	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color:blue;
+}
+#menuText{
+	margin-left: 50vw;
+	font-weight: bolder;
+	color: gold;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+.anasayfaYazi p {
+	font-size: 22px;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px black;
+	border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: gold;
+	border-radius: 3px;
+}
+#textHead{
+	font-size: 65px!important;
+	font-family: sans-serif!important;
+
+}
+#titleAdd{
+	color: #E3A03C!important;
+	font-size: 20px!important;
+}
+#logo{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: row;
+	max-width:600px;
+}
+#logo img{
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	border: 3px solid white;
+	box-shadow: 1px 1px 70px yellow, inset 1px 1px 45px yellow;
+	padding: 10px;
+	background-color: rgba(50,80,100,0.6);
+}
+#logo span{
+	position: absolute;
+	font-family: sans-serif;
+	letter-spacing: 6px;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-left: 100px;
+	background: linear-gradient(to right, gold 5%,  yellow 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#bismillah{
+	width: 250px;
+	height: 15vh;
+}
